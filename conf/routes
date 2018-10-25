@@ -1,0 +1,4 @@
+GET     /health                         controllers.HealthController.health()
+GET     /getKirtanLetters               controllers.KirtanController.getKirtanLetters()
+POST    /getKirtansTitleByLetter        controllers.KirtanController.getKirtansTitleByLetter()
+

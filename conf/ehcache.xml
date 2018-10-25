@@ -1,0 +1,12 @@
+
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../config/ehcache.xsd" updateCheck="false">
+
+    <!-- 512MB cache -->
+    <cache name="default-cache"
+            maxBytesLocalHeap="512000000"
+            eternal="true"
+            overflowToDisk="false"
+            memoryStoreEvictionPolicy="LRU"
+    />
+
+</ehcache>

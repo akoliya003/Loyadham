@@ -1,0 +1,9 @@
+target/
+/logs/
+RUNNING_PID
+.DS_Store
+/.cache
+/.idea/
+lib/
+/.settings
+
