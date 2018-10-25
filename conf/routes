@@ -2,3 +2,8 @@ GET     /health                         controllers.HealthController.health()
 GET     /getKirtanLetters               controllers.KirtanController.getKirtanLetters()
 POST    /getKirtansTitleByLetter        controllers.KirtanController.getKirtansTitleByLetter()
 
+
+GET /assets/*file               controllers.Assets.versioned(path="/resources", file)
+GET /                           controllers.staticResources.StaticAssetsController.index
+GET /$path<.*>                  controllers.staticResources.StaticAssetsController.frontEndPath(path)
+
